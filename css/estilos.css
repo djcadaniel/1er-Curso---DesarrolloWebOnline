@@ -1,0 +1,332 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    /* background-color: #00ff00; */
+    text-transform: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    line-height: 1.5em;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-decoration: dashed;
+    color: white;
+    margin: 0;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
+.portfolio {
+
+    padding: 20px;
+
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.project {
+    box-sizing: border-box;
+    /* border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-left: 10px solid orange;
+    border-bottom: 10px dotted pink; */
+    border-radius: 10px;
+    border: 10px solid gray;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0
+}
+
+.project-course {
+    margin: 10px 0;
+}
+
+.project-date {
+    margin: 10px 0;
+}
+
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One';
+}
+
+.project-details {
+    width: 500px;
+    height: auto;
+
+    /* display: inline-block; */
+}
+
+.project-imageContainer {
+    width: 500px;
+
+    margin: 0;
+    padding: 0;
+    /* display: inline; */
+
+}
+
+.hero {
+    height: 700px;
+    /* background-image: url('../images/hero.jpg'); */
+    /* background-size: 500px 300px; */
+    /* background-repeat: no-repeat;
+    background-position-x: right; */
+    background-color: #1b2127;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+header {
+    background-color: #1b2127;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.header-img {
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1b2127;
+    color: white;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.menu {
+    height: inherit;
+}
+
+.menu ol {
+    display: flex;
+    height: inherit;
+}
+
+.menu ol li {
+    height: inherit;
+}
+
+.menu ol li a {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.footer {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-details {}
+
+.footer-details img {
+    vertical-align: middle;
+}
+
+.footer-comen {}
+
+.eventoss {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event {
+    background-color: #f4fbff;
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+}
+
+.event figure {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+}
+
+.event-image {
+    width: inherit;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description {
+    text-align: left;
+}
+
+.event-url {
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.event-list-title {
+    margin-left: 20px;
+}
+
+.contact {
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {}
+
+.social-link {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-link.twitter {
+    background-image: url('../images/twitter.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.facebook {
+    background-image: url('../images/facebook.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.github {
+    background-image: url('../images/github.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.instagram {
+    background-image: url('../images/instagram.svg');
+    background-size: 50px 50px;
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    padding: 5px 20px 10px 25px;
+    background-image: url('../images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro';
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
